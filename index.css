@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #103ce7, #64e9ff);
+}
+
+.highlight {
+    font-weight: 600;
+}
+
+.portfolio-container {
+    background-color: #fff;
+    margin: 40px 0;
+    min-height: 90vh;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.content-row {
+    min-height: 80vh;
+}
+
+/*==========Social Media Icons and hover===========*/
+
+.social-media-icon {
+    font-size: 2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-media-icon:hover {
+    transform: scale(1.2);
+}
+
+.github,
+.linkedin {
+    color: #1c1c1c;
+}
+
+.github:hover {
+    color: #6e5494;
+}
+
+.linkedin:hover {
+    color: #0077b5;
+}
+
+/*==========Projects Button, Icon and hover===========*/
+.projects-btn {
+    background: linear-gradient(to top, #103ce7, #64e9ff);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.projects-btn:hover {
+    box-shadow: 10px 10px 10px 0 rgba(49, 196, 190, 0.8);
+    transform: scale(1.15);
+}
+
+.profile-image {
+    background-image: url('./images/panda.jpg');
+    height: 500px;
+    width: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/*===============Projects Page===========*/
+
+/*=========Cards=========*/
+
+.card {
+    margin-right: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card-list-item {
+    margin: 5px 0;
+}
+
+
+/*================Bar Background colours=========*/
+
+.bar-bg-html {
+    background-color: #e34c26 !important;
+}
+
+.bar-bg-css {
+    background-color: #006aff !important;
+}
+
+.bar-bg-js {
+    background-color: #F0db4f !important;
+}
+
+.bar-bg-bootstrap {
+    background-color: #943277 !important;
+}
+
+.bar-bg-jquery {
+    background-color: #001bb5 !important;
+}
+
+.bar-bg-python {
+    background: linear-gradient(to right, #Ffde57, #4584b6) !important;
+}
+
+.bar-bg-django {
+    background-color: #092e20 !important;
+}
+
+
+.icons-list li {
+    display: inline;
+}
