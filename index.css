@@ -9,23 +9,61 @@
 body {
     font-family: 'PT Serif', serif;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #103ce7, #64e9ff);
+    background: linear-gradient(to bottom, #001c8d, #006eff);
+}
+
+/* General class rules */
+
+.text-black {
+    color: #fff;
 }
 
 .highlight {
     font-weight: 600;
 }
 
+.icon {
+    margin-left: 5px;
+}
+
+/* Sets the main container */
+
 .portfolio-container {
-    background-color: #fff;
+    background-color: #1f1f1f;
     margin: 40px 0;
     min-height: 90vh;
     border-radius: 10px;
     padding-bottom: 20px;
+    color: #fff;
 }
 
-.content-row {
-    min-height: 80vh;
+/*===============Nav Menu============*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.logo a {
+    color: #fff;
+}
+
+.social-media-list {
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-media-icon {
+    display: inline;
+}
+
+.social-media-icon a {
+    color: #fff;
 }
 
 /*==========Social Media Icons and hover===========*/
@@ -34,10 +72,6 @@ body {
     font-size: 2em;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-.social-media-icon:hover {
-    transform: scale(1.2);
 }
 
 .github,
@@ -51,6 +85,101 @@ body {
 
 .linkedin:hover {
     color: #0077b5;
+}
+
+.nav-links {
+    float: right;
+    font-weight: 500;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 500;
+    color: #fff;
+}
+
+.cv-btn {
+    background: linear-gradient(to top, #103ce7, #64e9ff);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.cv-btn:hover {
+    box-shadow: 10px 10px 10px 0 rgba(49, 196, 190, 0.8);
+}
+
+.nav-links li {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    margin: 0 10px;
+}
+
+.nav-links li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00a9fd;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-links li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+/* Sets Height of the first row holding the introduction and image */
+
+.content-row {
+    min-height: 60vh;
+}
+
+/* ==================Introduction Section================== */
+
+.profile-img {
+    background-image: url('./images/panda.jpg');
+    margin-left: 5%;
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.introduction-title {
+    color: #dddddd;
+}
+
+/* ==============About Me Section=============== */
+
+.details-container {
+    margin-left: 5%;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.about-para a {
+    color: #00a9fd;
 }
 
 /*==========Projects Button, Icon and hover===========*/
@@ -68,22 +197,18 @@ body {
     transform: scale(1.15);
 }
 
-.profile-image {
-    background-image: url('./images/panda.jpg');
-    height: 500px;
-    width: 400px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-}
-
 /*===============Projects Page===========*/
 
 /*=========Cards=========*/
 
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
 .card {
-    margin-right: 20px;
+    margin: 1em auto;
+    width: 30%;
 }
 
 .card-img-top {
@@ -94,7 +219,7 @@ body {
     margin: 5px 0;
 }
 
-
+/*=============Skills Page==============*/
 /*================Bar Background colours=========*/
 
 .bar-bg-html {
@@ -128,4 +253,8 @@ body {
 
 .icons-list li {
     display: inline;
+}
+
+.progress-container {
+    margin-top: 50px;
 }
