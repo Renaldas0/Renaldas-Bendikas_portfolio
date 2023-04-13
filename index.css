@@ -9,14 +9,10 @@
 body {
     font-family: 'PT Serif', serif;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #001c8d, #006eff);
+    background-color: #1f1f1f !important;
 }
 
 /* General class rules */
-
-.text-black {
-    color: #fff;
-}
 
 .highlight {
     font-weight: 600;
@@ -26,27 +22,13 @@ body {
     margin-left: 5px;
 }
 
-/* Sets the main container */
-
-.portfolio-container {
-    background-color: #1f1f1f;
-    margin: 40px 0;
-    min-height: 90vh;
-    border-radius: 10px;
-    padding-bottom: 20px;
-    color: #fff;
-}
-
 /*===============Nav Menu============*/
 
 nav {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
-}
-
-.logo {
-    margin-left: 5%;
+    background-color: #222222;
 }
 
 .logo a {
@@ -144,21 +126,13 @@ nav {
 
 /* ==================Introduction Section================== */
 
-.profile-img {
-    background-image: url('./images/panda.jpg');
-    margin-left: 5%;
-    height: 400px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-}
-
 .introduction-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10%;
+    color: #fff;
+    font-size: 1.2rem;
 }
 
 .introduction-title {
@@ -176,6 +150,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     margin-left: 10%;
+    color: #fff;
+    font-size: 1.1rem;
 }
 
 .about-para a {
@@ -197,7 +173,10 @@ nav {
     transform: scale(1.15);
 }
 
-/*===============Projects Page===========*/
+.code-skills-container {
+    color: #fff;
+    font-size: 1.1rem;
+}
 
 /*=========Cards=========*/
 
@@ -220,41 +199,3 @@ nav {
 }
 
 /*=============Skills Page==============*/
-/*================Bar Background colours=========*/
-
-.bar-bg-html {
-    background-color: #e34c26 !important;
-}
-
-.bar-bg-css {
-    background-color: #006aff !important;
-}
-
-.bar-bg-js {
-    background-color: #F0db4f !important;
-}
-
-.bar-bg-bootstrap {
-    background-color: #943277 !important;
-}
-
-.bar-bg-jquery {
-    background-color: #001bb5 !important;
-}
-
-.bar-bg-python {
-    background: linear-gradient(to right, #Ffde57, #4584b6) !important;
-}
-
-.bar-bg-django {
-    background-color: #092e20 !important;
-}
-
-
-.icons-list li {
-    display: inline;
-}
-
-.progress-container {
-    margin-top: 50px;
-}
