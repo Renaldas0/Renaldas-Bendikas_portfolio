@@ -119,7 +119,7 @@ nav {
     transform-origin: bottom center;
 }
 
-/* Sets Height of the first row holding the introduction and image */
+/* Sets Height of the first row holding the introduction */
 
 .content-row {
     min-height: 60vh;
@@ -179,6 +179,7 @@ nav {
     font-size: 1.1rem;
 }
 
+/*===========Projects Page============*/
 /*=========Cards=========*/
 
 .cards-container {
