@@ -50,7 +50,7 @@ body {
 }
 
 .intro-row {
-    background: url('images/pexels-pew-nguyen-12786595.jpg') no-repeat center center fixed;
+    background: url('images/main-img.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -132,7 +132,7 @@ body {
 /* ==============About Me Section=============== */
 
 .about-me {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/pexels-bich-tran-669996.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/about-me-img.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
