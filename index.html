@@ -15,86 +15,58 @@
 </head>
 
 <body>
-    <header>
-        <div class="row px-2">
-            <!--Navbar-->
-            <nav>
-                <h2 class="logo"><a href="index.html" class="text-decoration-none">Renaldas Bendikas</a>
-                </h2>
-                <ul class="social-media-list">
-                    <li class="social-media-icon"><a class="github" href="https://github.com/Renaldas0?tab=repositories"
-                            target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </li>
-                    <li class="social-media-icon"><a class="text-decoration-none linkedin"
-                            href="https://www.linkedin.com/in/renaldas-bendikas-100ab01a0/" target="_blank"><i
-                                class="fa-brands fa-linkedin"></i></a></li>
-                </ul>
-                <ul class="nav-links">
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <a class="cta" href="#"><button class="cv-btn">Download CV</button></a>
-                </ul>
-            </nav>
-            <!--Navbar Ends-->
+    <header class="topbar">
+        <div class="logo-container">
+            <h2 class="logo">
+                <a href="index.html" class="text-decoration-none logo-link">Renaldas Bendikas</a>
+            </h2>
         </div>
+        <nav class="navigation">
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a class="cta" href="#"><button class="cv-btn">Download CV</button></a>
+            </ul>
+        </nav>
+        <!--Navbar Ends-->
+
     </header>
 
     <!--Portfolio Content-->
-    <div class="row content-row mt-2">
-        <div class="col-md-8 introduction-container offset-md-2">
-            <h1 class="introduction-header text-center">- I'm Renaldas Bendikas</h1>
-            <h3 class="text-center introduction-title">Full-Stack Web Developer</h3>
-            <p class="introduction-para">I am excited to introduce myself as a <span
-                    class="text-capitalize highlight">certified full stack developer
+    <div class="row intro-row">
+        <div class="introduction-container offset-md-2">
+            <h1 class="name">Renaldas Bendikas</h1>
+            <h3 class="title">Full-Stack Web Developer</h3>
+
+            <div class="button-container">
+                <a href="projects.html" class="text-decoration-none">
+                    <button class="projects-btn">Portfolio
+                        <span class="icon">
+                            <i class="fa-solid fa-folder"></i>
+                        </span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--About Me-->
+    <div class="row about-me">
+        <div class="about-container">
+            <h3 class="text-capitalize text-center" id="about">About me</h3>
+            <hr>
+            <p class="about-para">I am excited to introduce myself as a <span
+                    class="text-capitalize highlight">certified
+                    full stack developer
                 </span>
                 with a primary interest in front-end development. While I possess experience in both front-end and
                 back-end development, my passion lies in crafting intuitive and visually appealing user interfaces.
                 As a Front-End developer, I am dedicated to delivering immersive web experiences that engage users
                 and enhance their interaction with digital platforms. With a strong understanding of web
                 technologies such as HTML, CSS, and JavaScript, I am capable of designing and developing elegant and
-                functional websites that meet the needs of clients and users alike.</p>
-            <div>
-                <a href="projects.html" class="text-decoration-none float-end"><button class="projects-btn">My
-                        projects<span class="icon"><i class="fa-solid fa-folder"></i></span></button></a>
-            </div>
-        </div>
-    </div>
-    <!--End of Portfolio Content-->
-    <!--About Me-->
-    <div class="row">
-        <div class="col-md-3 details-container">
-            <h3 class="text-capitalize text-center text-light ">My details<span class="icon"><i
-                        class="fa-solid fa-book"></i></span>
-            </h3>
-            <hr>
-            <ul class="list-group details-list">
-                <li class="list-group-item details-item"><span class="highlight">Name:</span> Renaldas Bendikas</li>
-                <li class="list-group-item details-item"><span class="highlight">Email:</span>
-                    renaldasb1999@gmail.com</li>
-                <li class="list-group-item details-item"><span class="highlight">Mobile:</span> 0861778155</li>
-                <li class="list-group-item details-item"><span class="highlight">Country of residence:</span>
-                    Ireland</li>
-                <li class="list-group-item details-item"><span class="highlight">Years of Coding experience:</span>
-                    1.5+</li>
-            </ul>
-        </div>
-        <aside class="col-md-6 col-12 about-container">
-            <h3 class="text-capitalize text-center" id="about">About me</h3>
-            <hr>
-            <p class="about-para">Highly driven individual with a huge interest and desire to create fun and
-                memorable user experiences by developing modern websites for clients of all kinds. Over a year and a
-                half of non commercial experience, working with HTML5, CSS3, SASS, Bootstrap, vanilla JavaScript and
-                ES6. My skill set was developed through 5 milestone projects with the University Credit Rated
-                Bootcamp 'Code Institute' over a 1 year period.
-                Along with those 5 projects ranging from simple front-end development to fully functioning full
-                stack websites, I have also been working on projects of my own. <span class="highlight">Everyting
-                    can
-                    be found in my
-                    Github Repository or "<a href="projects.html" class="text-decoration-none">projects</a>"
-                    section</span>
+                functional websites that meet the needs of clients and users alike.
             </p>
-        </aside>
+        </div>
     </div>
 
     <!--End of About me-->
