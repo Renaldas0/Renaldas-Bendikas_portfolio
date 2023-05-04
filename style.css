@@ -177,10 +177,18 @@ body {
     transform: scale(1.15);
 }
 
-.code-skills-container {
-    color: #fff;
-    font-size: 1.1rem;
+/*====================Skills Section=======================*/
+
+.skills-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)), url('images/skills-img.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
 }
+
 
 /*===========Projects Page============*/
 /*=========Cards=========*/
