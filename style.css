@@ -193,14 +193,28 @@ body {
     list-style: none;
 }
 
-.tech-icon img {
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
+.skills-circle-wrapper {
+    display: flex;
+    justify-content: center;
 }
 
-.tech-list-item {
-    margin: 10px 0;
+.skills-circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-circle i {
+    font-size: 30px;
+}
+
+.skills-list-group li {
+    display: inline-block;
 }
 
 /*===========Projects Page============*/
