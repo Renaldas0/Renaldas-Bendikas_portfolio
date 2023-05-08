@@ -189,13 +189,10 @@ body {
     position: relative;
 }
 
-.skills-section ul {
-    list-style: none;
-}
-
 .skills-circle-wrapper {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    margin: auto;
 }
 
 .skills-circle {
@@ -203,7 +200,8 @@ body {
     height: 75px;
     border-radius: 50%;
     border: 2px solid #fff;
-    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,6 +209,10 @@ body {
 
 .skills-circle i {
     font-size: 30px;
+}
+
+.skills-list-group {
+    padding: 0;
 }
 
 .skills-list-group li {
