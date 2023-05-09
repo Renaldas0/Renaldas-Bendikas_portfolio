@@ -189,6 +189,10 @@ body {
     position: relative;
 }
 
+#skills {
+    font-size: 2rem;
+}
+
 .skills-circle-wrapper {
     display: block;
     text-align: center;
@@ -196,8 +200,8 @@ body {
 }
 
 .skills-circle {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 2px solid #fff;
     margin-left: 50%;
@@ -205,18 +209,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .skills-circle i {
-    font-size: 30px;
+    font-size: 50px;
+}
+
+.skills-header {
+    font-size: 25px;
 }
 
 .skills-list-group {
     padding: 0;
+    font-size: 20px;
 }
 
 .skills-list-group li {
     display: inline-block;
+}
+
+.personal-skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 /*===========Projects Page============*/
