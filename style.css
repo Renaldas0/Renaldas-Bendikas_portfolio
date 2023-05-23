@@ -248,8 +248,13 @@ body {
     color: #fff;
 }
 
-.language-list-item {
-    padding: 10px 0;
+.language-list-group, .hobby-list-group {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.language-list-item, .hobby-list-item {
+    padding: 5px 0;
 }
 
 /*================Timeline Style================*/
