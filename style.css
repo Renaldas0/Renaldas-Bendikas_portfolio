@@ -246,14 +246,16 @@ body {
     min-height: 100vh;
     position: relative;
     color: #fff;
+    display: flex;
+    justify-content: space-around;
 }
 
-.language-list-group, .hobby-list-group {
+.language-list-group, .hobby-list-group, .education-list-group {
   text-align: left;
-  margin-left: 40px;
+  list-style: none;
 }
 
-.language-list-item, .hobby-list-item {
+.language-list-item, .hobby-list-item, .education-list-item {
     padding: 5px 0;
 }
 
@@ -331,6 +333,64 @@ body {
     padding-right: 30px;
     text-align: right;
   }
+
+  /*===========Projects Section============*/
+
+  .project-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)), url('images/pattern.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+  }
+
+  #carousel {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  #carousel .arrow {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 26px;
+    color: #fff;
+    background: #00000072;
+    cursor: pointer;
+  }
+
+  #carousel #prev {
+    left: 0px;
+  }
+
+  #carousel #next {
+    right: 0px;
+  }
+
+  #carousel-vp {
+    width: 770px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+  }
+
+
   
   @media all and (max-width: 991px) {
   }
@@ -357,13 +417,68 @@ body {
     .single-timeline:nth-child(even) .timeline-text span {
       text-align: left !important;
     }
+
+    #carousel-vp {
+      width: 510px;
+    }
   }
-  @media all and (max-width: 575px) {
+
+  @media all and (max-width: 510px) {
+    #carousel-vp {
+      width:250px;
+    }
+
+    #carousel #carousel-inner {
+      display: flex;
+      position: absolute;
+      transition: 0.3s ease-in-out;
+      gap: 10px;
+      left: 0px;
+    }
+
+    #carousel-item {
+      width: 250px;
+      height: 365px;
+      border: 2px solid white;
+      border-radius: 15px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .carousel-item img {
+      width: 100%;
+      object-fit: cover;
+      min-height: 246px;
+      color: #fff;
+    }
+
+    .cCarousel-item .infos {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      background: white;
+      color: black;
+    }
+    
+    .cCarousel-item .infos button {
+      background: #222;
+      padding: 10px 30px;
+      border-radius: 15px;
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
   }
+
   @media all and (max-width: 360px) {
     .all-timelines::before {
       top: 32px;
     }
   }
 
-/*===========Projects Page============*/
+
+
