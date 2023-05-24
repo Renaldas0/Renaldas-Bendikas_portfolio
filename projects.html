@@ -1,235 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
+<section>
+  <div id="cCarousel">
+    <div class="arrow" id="prev"><i class="fa-solid fa-chevron-left"></i></div>
+    <div class="arrow" id="next"><i class="fa-solid fa-chevron-right"></i></div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renaldas Bendikas Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--Font Awesome-->
-    <script src="https://kit.fontawesome.com/0fc8d7e1ea.js" crossorigin="anonymous"></script>
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-</head>
+    <div id="carousel-vp">
+      <div id="cCarousel-inner">
+        <article class="cCarousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Moon"
+          />
+          <div class="infos">
+            <h3>Title 1 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
 
-<body>
-    <header>
-        <div class="row px-2">
-            <!--Navbar-->
-            <nav>
-                <h2 class="logo"><a href="index.html" class="text-decoration-none">Renaldas Bendikas</a>
-                </h2>
-                <ul class="social-media-list">
-                    <li class="social-media-icon"><a class="github" href="https://github.com/Renaldas0?tab=repositories"
-                            target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </li>
-                    <li class="social-media-icon"><a class="text-decoration-none linkedin"
-                            href="https://www.linkedin.com/in/renaldas-bendikas-100ab01a0/" target="_blank"><i
-                                class="fa-brands fa-linkedin"></i></a></li>
-                </ul>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <a class="cta" href="#"><button class="cv-btn">Download CV</button></a>
-                </ul>
-            </nav>
-            <!--Navbar Ends-->
-        </div>
-    </header>
+        <article class="cCarousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Moon"
+          />
+          <div class="infos">
+            <h3>Title 2 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
 
-    <h2 class="text-center text-capitalize text-light">My projects<span class="icon"><i
-                class="fa-solid fa-folder-open"></i></span></h2>
-    <hr>
+        <article class="cCarousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Moon"
+          />
+          <div class="infos">
+            <h3>Title 3 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
 
-    <!--Row containing cards-->
-    <div class="row content-row">
-        <!--Project column section containing cards-->
-        <div class="col-md-10 offset-md-1 projects-section">
-            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="cards-container">
-                            <div class="card text-black">
-                                <img src="/images/a-z_designers.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">A-Z_Designers</h5>
-                                    <p class="card-text">Full-Stack E-Commerce clothing website</p>
-                                    <ul class="list-unstyled card-list-group">
-                                        <li class="card-list-item"><span class="highlight">Problem
-                                                solved:</span></li>
-                                        <li class="card-list-item"><span class="highlight">Technologies used:
-                                            </span>HTML5,
-                                            CSS3, Bootstrap V4.6,
-                                            JavaScript, jQuery,
-                                            Python,
-                                            Django, Github Issues/projects, Amazon AWS (storage), Heroku.</li>
-                                        <li class="card-list-item"><span class="highlight">Time to
-                                                complete:</span></li>
-                                        <li class="card-list-item"><span class="highlight">Skills Learned:
-                                            </span></li>
-                                        <li class="card-list-item"><span class="highlight text-capitalize">Live
-                                                website link
-                                                on heroku: <a href=""></a></span></li>
-                                    </ul>
-                                    <a href="#" class="btn btn-primary">Github repository</a>
-                                </div>
-                            </div>
-                            <div class="card text-black">
-                                <img src="/images/background.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Improve your golf</h5>
-                                    <p class="card-text">Full-Stack golf lesson booking website</p>
-                                    <ul class="list-unstyled card-list-group">
-                                        <li class="card-list-item"><span class="highlight">Problem
-                                                solved:</span>Created a
-                                            website for a B2C business that met the business needs, allows users
-                                            to view
-                                            what this business does, and allows users to place a booking for
-                                            golf lessons on
-                                            selected dates and available times. This also includes user account
-                                            creation
-                                            options.</li>
-                                        <li class="card-list-item"><span class="highlight">Technologies used:
-                                            </span>HTML5,
-                                            CSS3, Bootstrap V4.6,
-                                            JavaScript, jQuery,
-                                            Python,
-                                            Django, Github Issues/projects, Cloudinary (storage), Heroku.</li>
-                                        <li class="card-list-item"><span class="highlight">Time to
-                                                complete:</span> 5 weeks
-                                            from start to finish</li>
-                                        <li class="card-list-item"><span class="highlight">Skills Learned:
-                                            </span></li>
-                                        <li class="card-list-item"><span class="highlight text-capitalize">Live
-                                                website link
-                                                on heroku: <a href=""></a></span></li>
-                                    </ul>
-                                    <a href="#" class="btn btn-primary">Github repository</a>
-                                </div>
-                            </div>
-                            <div class="card text-black">
-                                <img src="/images/responsive.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Netflix clone</h5>
-                                    <p class="card-text">A clone of Netflix's website landing page.</p>
-                                    <ul class="list-unstyled card-list-group">
-                                        <li class="card-list-item"><span class="highlight">Problem
-                                                solved:</span></li>
-                                        <li class="card-list-item"><span class="highlight">Technologies used:
-                                            </span>HTML5,
-                                            CSS3, JavaScript, jQuery,</li>
-                                        <li class="card-list-item"><span class="highlight">Time to
-                                                complete:</span></li>
-                                        <li class="card-list-item"><span class="highlight">Skills Learned:
-                                            </span></li>
-                                    </ul>
-                                    <a href="#" class="btn btn-primary">Github repository</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="cards-container">
-                            <div class="card text-black">
-                                <img src="/images/passion-for-cars.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Passion For Cars</h5>
-                                    <p class="card-text">HTML & CSS Car Fanatic Website (My very first project)</p>
-                                    <ul class="list-unstyled card-list-group">
-                                        <li class="card-list-item"><span class="highlight">Problem
-                                                solved:</span> Provides a website for car enthusiasts to get together
-                                            during car events and meet ups.</li>
-                                        <li class="card-list-item"><span class="highlight">Technologies used:
-                                            </span>HTML5,
-                                            CSS3, GitHub</li>
-                                        <li class="card-list-item"><span class="highlight">Time to
-                                                complete: 1 Month</span></li>
-                                        <li class="card-list-item"><span class="highlight">Skills Learned:
-                                            </span>I learned how to correctly layout my page with HTML5, style it with
-                                            CSS3 and make the site responsive for various device sizes.</li>
-                                        <li class="card-list-item"><span class="highlight text-capitalize">Live
-                                                website link
-                                                on heroku: <a
-                                                    href="https://renaldas0.github.io/Passion-For-Cars/"></a></span>
-                                        </li>
-                                    </ul>
-                                    <a href="https://github.com/Renaldas0/Passion-For-Cars"
-                                        class="btn btn-primary">Github repository</a>
-                                </div>
-                            </div>
-                            <div class="card text-black">
-                                <img src="/images/background.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">CSS3 Projects</h5>
-                                    <p class="card-text">A repository with a collection of various CSS projects</p>
-                                    <ul class="list-unstyled card-list-group">
-                                        <li class="card-list-item"><span class="highlight">Purpose
-                                                :</span>These mini projects I did to improve my CSS skills and also to
-                                            see the power of CSS3 while having fun</li>
-                                        <li class="card-list-item"><span class="highlight">Technologies used:
-                                            </span>HTML5, CSS3, Github</li>
-                                        <li class="card-list-item"><span class="highlight">Skills Learned:
-                                            </span></li>
-                                        <li class="card-list-item"><span class="highlight text-capitalize">Project 1: <a
-                                                    href=""></a></span></li>
-                                        <li class="card-list-item"><span class="highlight text-capitalize">Project 2: <a
-                                                    href=""></a></span></li>
-                                        <li class="card-list-item"><span class="highlight text-capitalize">Project 3: <a
-                                                    href=""></a></span></li>
-                                    </ul>
-                                    <a href="#" class="btn btn-primary">Github repository</a>
-                                </div>
-                            </div>
-                            <div class="card text-black">
-                                <img src="/images/responsive.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Netflix clone</h5>
-                                    <p class="card-text">A clone of Netflix's website landing page.</p>
-                                    <ul class="list-unstyled card-list-group">
-                                        <li class="card-list-item"><span class="highlight">Problem
-                                                solved:</span></li>
-                                        <li class="card-list-item"><span class="highlight">Technologies used:
-                                            </span>HTML5,
-                                            CSS3, JavaScript, jQuery,</li>
-                                        <li class="card-list-item"><span class="highlight">Time to
-                                                complete:</span></li>
-                                        <li class="card-list-item"><span class="highlight">Skills Learned:
-                                            </span></li>
-                                    </ul>
-                                    <a href="#" class="btn btn-primary">Github repository</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <article class="cCarousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Moon"
+          />
+          <div class="infos">
+            <h3>Title 4 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+
+        <article class="cCarousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Moon"
+          />
+          <div class="infos">
+            <h3>Title 5 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+
+        <article class="cCarousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Moon"
+          />
+          <div class="infos">
+            <h3>Title 6 / 6</h3>
+            <button type="button">See</button>
+          </div>
+        </article>
+      </div>
     </div>
-    <div>
-        <a href="skills.html" class="text-decoration-none float-end skills-btn"><button class="projects-btn my-2">My
-                Skills<span class="icon"><i class="fa-solid fa-code"></i></span></button></a>
-    </div>
-    </div>
-    <!--End of project Content and social media row-->
-    </div>
-    <!--End of Container-->
-</body>
-
-</html>
+  </div>
+</section>

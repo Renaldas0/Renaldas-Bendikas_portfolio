@@ -350,36 +350,36 @@ body {
     color: #fff;
   }
 
-  #carousel {
+  #cCarousel {
     position: relative;
     max-width: 900px;
     margin: auto;
   }
-
-  #carousel .arrow {
+  
+  #cCarousel .arrow {
     position: absolute;
     top: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 45px;
     height: 45px;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     z-index: 1;
     font-size: 26px;
-    color: #fff;
+    color: white;
     background: #00000072;
     cursor: pointer;
   }
-
-  #carousel #prev {
+  
+  #cCarousel #prev {
     left: 0px;
   }
-
-  #carousel #next {
+  
+  #cCarousel #next {
     right: 0px;
   }
-
+  
   #carousel-vp {
     width: 770px;
     height: 400px;
@@ -389,8 +389,6 @@ body {
     overflow: hidden;
     margin: auto;
   }
-
-
   
   @media all and (max-width: 991px) {
   }
@@ -425,54 +423,55 @@ body {
 
   @media all and (max-width: 510px) {
     #carousel-vp {
-      width:250px;
-    }
-
-    #carousel #carousel-inner {
-      display: flex;
-      position: absolute;
-      transition: 0.3s ease-in-out;
-      gap: 10px;
-      left: 0px;
-    }
-
-    #carousel-item {
       width: 250px;
-      height: 365px;
-      border: 2px solid white;
-      border-radius: 15px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .carousel-item img {
-      width: 100%;
-      object-fit: cover;
-      min-height: 246px;
-      color: #fff;
-    }
-
-    .cCarousel-item .infos {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      background: white;
-      color: black;
-    }
-    
-    .cCarousel-item .infos button {
-      background: #222;
-      padding: 10px 30px;
-      border-radius: 15px;
-      color: white;
-      font-size: 1rem;
-      font-weight: bold;
-      cursor: pointer;
     }
   }
+  
+  #cCarousel #cCarousel-inner {
+    display: flex;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    gap: 10px;
+    left: 0px;
+  }
+  
+  .cCarousel-item {
+    width: 250px;
+    height: 365px;
+    border: 2px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cCarousel-item img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 246px;
+    color: white;
+  }
+  
+  .cCarousel-item .infos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    color: black;
+  }
+  
+  .cCarousel-item .infos button {
+    background: #222;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
 
   @media all and (max-width: 360px) {
     .all-timelines::before {
