@@ -350,6 +350,8 @@ body {
     color: #fff;
   }
 
+  /*=============Carousel===========*/
+
   #cCarousel {
     position: relative;
     max-width: 900px;
