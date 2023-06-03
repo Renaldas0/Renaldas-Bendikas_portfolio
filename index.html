@@ -31,7 +31,7 @@
       </div>
       <nav class="navigation">
         <ul class="nav-links">
-          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="contact.html">Contact</a></li>
           <a class="cta" href="#"
@@ -44,9 +44,13 @@
 
     <!--Portfolio Content-->
     <div class="row intro-row">
-      <div class="introduction-container offset-md-2">
+      <div class="introduction-container container-fluid offset-md-2">
         <h1 class="name">Renaldas Bendikas</h1>
-        <h3 class="title">Full-Stack Web Developer</h3>
+        <h3 class="title">Front-End Web Developer</h3>
+        <h4>
+          I craft accessible and responsive Web experiences <br />
+          where creativity meets technology.
+        </h4>
         <div class="button-container">
           <a href="projects.html" class="text-decoration-none">
             <button class="projects-btn">
@@ -58,9 +62,6 @@
           </a>
         </div>
       </div>
-    </div>
-    <!--About Me-->
-    <div class="row about-me">
       <div class="about-container">
         <h3 class="text-capitalize text-center" id="about">About me</h3>
         <hr />
@@ -69,21 +70,20 @@
           <span class="text-capitalize highlight"
             >certified full stack developer
           </span>
-          with a primary interest in front-end development. While I possess
-          experience in both front-end and back-end development, my passion lies
-          in crafting intuitive and visually appealing user interfaces. As a
-          Front-End developer, I am dedicated to delivering immersive web
-          experiences that engage users and enhance their interaction with
-          digital platforms. With a strong understanding of web technologies
-          such as HTML, CSS, and JavaScript, I am capable of designing and
-          developing elegant and functional websites that meet the needs of
-          clients and users alike.
+          with a primary and heavy interest in front-end development. While I
+          possess experience in both front-end and back-end development, my
+          passion lies in crafting intuitive and visually appealing and
+          responsive user interfaces. As a Front-End developer, I am dedicated
+          to delivering immersive web experiences that engage users and enhance
+          their interaction with digital platforms. With a strong understanding
+          of web technologies such as HTML, CSS,JavaScript, JQuery, and Git. I
+          am capable of designing and developing elegant and functional websites
+          that meet the needs of all clients and users alike.
         </p>
       </div>
     </div>
-    <!--End of About me-->
     <!-- Skills Section -->
-    <div class="skills-section text-light">
+    <section class="skills-section container-fluid text-light">
       <div class="row">
         <h4 id="skills" class="text-center mt-3 mb-5">Skills</h4>
         <div class="col-md-3 skills-circle-wrapper">
@@ -189,8 +189,89 @@
           </ul>
         </div>
       </div>
-    </div>
-
+    </section>
+    <section id="projects" class="project-section container-fluid">
+      <h4>Projects</h4>
+      <div class="row card-container">
+        <div class="col-lg-3 col-md-6 col-12 card">
+          <img src="images/a-z_designers.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">A-Z_Designers</h5>
+            <ul class="card-text">
+              <li>
+                Purpose: Provide a B2C website for consumers to make online
+                clothing shopping easy, quick and satisfying.
+              </li>
+              <li>
+                Unique features:
+                <ul>
+                  <li>Defensive programming</li>
+                  <li>
+                    Allows admin/ superusers to make adjustments to products and
+                    reviews directly on the website or in the database.
+                  </li>
+                  <li>
+                    Quick and Easy payment system with Stripe that is also
+                    reinforced by adding a loading screen and cancelling the
+                    transaction if the page is closed to early.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Technologies Used: HTML, CSS,Bootstrap, JavaScript, Python,
+                Django, Git, GitHub, Stripe API, Amazon AWS
+              </li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-warning">Live Project</a>
+            <a href="#" target="_blank" class="btn btn-primary">Github Repo</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 card">
+          <img
+            src="images/improve-your-golf.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Improve Your Golf</h5>
+            <ul class="card-text">
+              <li>Purpose:</li>
+              <li>
+                Unique Features:
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+              <li>Technologies Used:</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-warning">Live Project</a>
+            <a href="#" target="_blank" class="btn btn-primary">Github Repo</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Iguana Cafe</h5>
+            <ul class="card-text">
+              <li>Purpose:</li>
+              <li>
+                Unique Features:
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+              <li>Technologies Used:</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-warning">Live Project</a>
+            <a href="#" target="_blank" class="btn btn-primary">Github Repo</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="row experience-section">
       <div class="col-md-4 mt-3 text-center">
         <div>
@@ -296,79 +377,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="row project-section">
-      <h4 class="text-center mt-3">My Projects</h4>
-      <div id="cCarousel">
-        <div class="arrow" id="prev">
-          <i class="fa-solid fa-chevron-left"></i>
-        </div>
-        <div class="arrow" id="next">
-          <i class="fa-solid fa-chevron-right"></i>
-        </div>
-
-        <div id="carousel-vp">
-          <div id="cCarousel-inner">
-            <article class="cCarousel-item">
-              <img
-                src="images/a-z_designers.png"
-                alt="a-z_designers project image"
-              />
-              <div class="infos">
-                <h3>A-Z_Designers</h3>
-                <p>Full-Stack E-Commerce Website</p>
-                <button type="button">See</button>
-              </div>
-            </article>
-
-            <article class="cCarousel-item">
-              <img src="images/improve-your-golf.png" alt="Moon" />
-              <div class="infos">
-                <h3>Improve Your Golf</h3>
-                <p>Full-Stack booking system website</p>
-                <button type="button">See</button>
-              </div>
-            </article>
-
-            <article class="cCarousel-item">
-              <img src="" alt="Moon" />
-              <div class="infos">
-                <h3>Netflix clone</h3>
-                <p>Netflix's website clone</p>
-                <button type="button">See</button>
-              </div>
-            </article>
-
-            <article class="cCarousel-item">
-              <img src="images/f1-quiz-game.png" alt="Moon" />
-              <div class="infos">
-                <h3>F1 Quiz Game</h3>
-                <p>Quiz game with JavaScript</p>
-                <button type="button">See</button>
-              </div>
-            </article>
-
-            <article class="cCarousel-item">
-              <img src="" alt="Moon" />
-              <div class="infos">
-                <h3>Iguana Cafe</h3>
-                <p>Local start up cafe website</p>
-                <button type="button">See</button>
-              </div>
-            </article>
-
-            <article class="cCarousel-item">
-              <img src="" alt="Moon" />
-              <div class="infos">
-                <h3>Battle Dice</h3>
-                <p>Hackathon - Star Wars game</p>
-                <button type="button">See</button>
-              </div>
-            </article>
           </div>
         </div>
       </div>
