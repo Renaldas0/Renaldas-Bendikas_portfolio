@@ -24,41 +24,18 @@ body {
 }
 
 /*===============Nav Menu============*/
-.topbar {
-    position: relative;
-    display: block;
-    float: left;
-    width: 100%;
+
+.navbar {
+  background-color: rgb(255, 255, 255, 0.1) !important;
 }
 
-.logo-container {
-    position: relative;
-    display: block;
-    float: left;
-    padding: 10px;
-}
-
-.navigation {
-    position: relative;
-    display: block;
-    float: right;
-    padding: 10px;
-}
-
-.logo a {
+.navbar-brand {
     color: #fff;
 }
 
 /*==========Social Media Icons and hover===========*/
 
-.nav-links {
-    font-weight: 500;
-}
-
 .nav-links a {
-    text-decoration: none;
-    color: #1c1c1c;
-    font-weight: 500;
     color: #fff;
 }
 
@@ -101,7 +78,7 @@ body {
 
 /*================= Introduction ================*/
 
-.intro-row {
+.intro-section {
     background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/main-img.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -114,10 +91,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    top: 35%;
     color: #fff;
-    width: fit-content;
 }
 
 .name {
@@ -129,18 +103,6 @@ body {
     font-size: 40px;
 }
 
-/* ==============About Me Section=============== */
-
-.about-me {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/about-me-img.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-}
-
 #about {
     font-size: 2rem;
 }
@@ -149,10 +111,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    top: 30%;
-    width: 40%;
-    right: 10%;
     color: #fff;
     font-size: 1.2rem;
 }
