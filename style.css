@@ -147,6 +147,10 @@ body {
     transform: scale(1.15);
 }
 
+.btn-wrapper {
+  float: right;
+}
+
 /*====================Skills Section=======================*/
 
 .skills-section {
