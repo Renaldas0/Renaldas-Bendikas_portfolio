@@ -131,6 +131,27 @@ body {
     color: #00a9fd;
 }
 
+.contact-header {
+  font-size: 1.8rem;
+}
+
+.contact-wrapper a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px 10px;
+  float: right;
+  display: inline;
+}
+
+.contact-wrapper a:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.email {
+  display: inline;
+}
+
 /*==========Projects Button, Icon and hover===========*/
 .projects-btn {
     background: linear-gradient(to top, #103ce7, #64e9ff);
@@ -234,6 +255,10 @@ body {
 }
 
 /*================Timeline Style================*/
+  .timeline-area {
+    backdrop-filter: blur(10px);
+  }
+
   .d-flex-2 {
     display: flex;
     align-items: center;
@@ -333,36 +358,6 @@ body {
 
   .card {
     background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  #contact {
-    min-height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-  }
-
-  .contact-header {
-    font-size: 1.8rem;
-  }
-  
-  .contact-wrapper a {
-    text-decoration: none;
-    color: #fff;
-    margin: 5px 10px;
-    float: right;
-    display: inline;
-  }
-
-  .contact-wrapper a:hover {
-    transform: scale(1.1);
-    transition: 0.5s ease-in-out;
-  }
-
-  .email {
-    display: inline;
   }
 
   /*=================Media Queries=====================*/
