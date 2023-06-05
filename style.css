@@ -29,8 +29,20 @@ body {
   background-color: rgb(255, 255, 255, 0.1) !important;
 }
 
-.navbar-brand {
+.navbar-toggler {
+  background-color: #fff !important;
+  margin-right: 20px;
+}
+
+.logo-link {
     color: #fff;
+    font-size: 2rem;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-links {
+  margin-left: 15px;
 }
 
 /*==========Social Media Icons and hover===========*/
