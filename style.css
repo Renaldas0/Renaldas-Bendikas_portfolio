@@ -51,6 +51,10 @@ body {
     color: #fff;
 }
 
+.nav-links a:hover {
+  color: #0087ca;
+}
+
 .cv-btn {
     background: linear-gradient(to top, #103ce7, #64e9ff);
     color: #fff;
